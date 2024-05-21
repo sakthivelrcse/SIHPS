@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 21/05/24
+## Register Number: 212221040141
+## Name: SAKTHIVEL R
 ## Problem Title
 E-Waste Facility Locator
 ## Problem Description
@@ -11,15 +11,45 @@ Ministry of Environment
 
 ## Idea
 
+Setting up a notification system within the E-Waste Facility Locator application is essential for keeping users informed about relevant events, drives, and updates related to e-waste recycling facilities. This system serves as a crucial tool in promoting user engagement, encouraging participation in recycling initiatives, and fostering a sense of community involvement in sustainable practices.
+
+The notification system operates by leveraging geolocation services to detect users' proximity to e-waste recycling events, collection drives, and the facilities they frequent. This entails continuously monitoring users' locations and cross-referencing them with event data stored within the application's database. When a user is within the vicinity of a relevant event or drive, the system triggers a notification to alert them in real-time.
 
 ## Proposed Solution / Architecture Diagram
+![shl1](https://github.com/Ayisharinsi/SIHPS/assets/148609304/8cb945af-a96f-4fd9-aa1d-7c58f64cbc2a)
 
 
 ## Use Cases
-
+![shl2](https://github.com/Ayisharinsi/SIHPS/assets/148609304/285541b5-d62f-4d62-a50b-084ed386a7e8)
 
 ## Technology Stack
-
+- Frameworks
+    - React.js
+    - Angular
+    - Vue.js
+  - UI Components
+    - Material-UI
+    - Bootstrap
+  - Mapping
+    - Leaflet.js
+    - Google Maps API
+  - Mobile Development
+    - React Native
+    - Flutter
+    - NativeScript
 
 ## Dependencies
+Frontend Dependencies:
+Frameworks: React.js, Angular, Vue.js
+UI Components: Material-UI, Bootstrap
+Mapping Libraries: Leaflet.js, Google Maps API
+Mobile Development Tools: React Native, Flutter, NativeScript
 
+Backend Dependencies:
+Programming Languages: Node.js, Python, Java
+Web Frameworks: Express.js, Django, Flask, Spring Boot
+Database Systems: MongoDB, PostgreSQL, MySQL, Firebase Realtime Database
+
+Geolocation Services Dependencies:
+Mapping APIs: Google Maps API, Mapbox API, OpenStreetMap
+GeoJSON data formats for representing geographical features
